@@ -61,7 +61,6 @@ opacity: 0%;
 
 .ex-6-img {
   filter: grayscale(0);
-  transition: all 2s;
 }
           
 .ex-6-img:hover {
@@ -70,12 +69,44 @@ opacity: 0%;
 
     /* EX 7 */
 
+.ex-7-img {
+  filter: hue-rotate(0) brightness(1);
+  transition: filter 3s;
+}
+          
+.ex-7-img:hover {
+  filter:hue-rotate(90deg) brightness(1.5);
+}
+
 
     /* EX 8 */
+
+.ex-8-img {
+  border-radius: 0%;
+  filter: hue-rotate(0) brightness(1);
+  transition: all 3s;
+}
+          
+.ex-8-img:hover {
+  filter:hue-rotate(90deg) brightness(1.5);
+  border-radius: 50px;
+}
 
 
     /* EX 9 */
 
+.ex-9-img {
+  border-radius: 0%;
+  filter: hue-rotate(0) brightness(1);
+  transition: all 3s;
+}
+          
+.ex-9-img:hover {
+  filter:hue-rotate(90deg) brightness(1.5);
+  border-radius: 50px;
+  width: 500px;
+  margin: 0;
+}
 
     /* EX 10 */
 
