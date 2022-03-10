@@ -42,9 +42,31 @@ opacity: 0%;
 
     /* EX 5 */
 
+.ex-5-square {
+  transition: all 2s;
+}
+          
+.ex-5-square:hover {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+.ex-5-square:active {
+  width: 40px;
+  height: 40px;
+}
 
     /* EX 6 */
 
+.ex-6-img {
+  filter: grayscale(0);
+  transition: all 2s;
+}
+          
+.ex-6-img:hover {
+  filter: grayscale(100%);
+}
 
     /* EX 7 */
 
